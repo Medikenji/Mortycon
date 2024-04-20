@@ -13,6 +13,7 @@ public class Railgun : Projectile
     {
         if (deleteSelf())
         {
+            explosion.createExplosion(transform.position, 5);
             Object.Destroy(self);
         }
     }

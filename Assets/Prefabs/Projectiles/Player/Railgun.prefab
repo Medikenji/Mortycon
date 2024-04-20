@@ -50,6 +50,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 523e12f9f4e302c4693bad567d846ca3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  explosion: {fileID: -8004714678524539611, guid: fe75f676bc635654e976f9fc217aef45, type: 3}
   deviationAmount: 0
   fireRate: 5
   fireVelocity: 50000

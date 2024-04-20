@@ -553,8 +553,8 @@ MonoBehaviour:
   crosshair: {fileID: 1931707290}
   view: {fileID: 963194227}
   projectiles:
-  - {fileID: 4471084287896836827, guid: f082eba64bca41244a0f89e21e553bad, type: 3}
   - {fileID: 1305584959078205628, guid: 73dcebfe44a948a4a9b2b444daac19a5, type: 3}
+  - {fileID: 4471084287896836827, guid: f082eba64bca41244a0f89e21e553bad, type: 3}
 --- !u!81 &1428576797
 AudioListener:
   m_ObjectHideFlags: 0

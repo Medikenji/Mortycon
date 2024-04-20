@@ -6,8 +6,8 @@ public class BigBullet : Projectile
 
     void Start()
     {
-        rgBody.AddForce(transform.forward * Random.Range(-1, 1));
-        rgBody.AddForce(transform.right * Random.Range(-1, 1));
+        rgBody.AddForce(transform.forward * Random.Range(deviationAmount, deviationAmount));
+        rgBody.AddForce(transform.right * Random.Range(deviationAmount, deviationAmount));
         rgBody.AddForce(transform.up * getFireVelocity());
     }
 
@@ -16,6 +16,7 @@ public class BigBullet : Projectile
     {
         if (deleteSelf())
         {
+            explosion.createExplosion(transform.position, 0.1f);
             Destroy(self);
         }
     }

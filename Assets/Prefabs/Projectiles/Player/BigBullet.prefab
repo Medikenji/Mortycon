@@ -49,6 +49,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ac765f57e4afb6428a62066cbbb94c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  explosion: {fileID: -8004714678524539611, guid: fe75f676bc635654e976f9fc217aef45, type: 3}
   deviationAmount: 2.5
   fireRate: 0.05
   fireVelocity: 200

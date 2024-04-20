@@ -22,7 +22,7 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
-        currentProjectile = projectiles[1];
+        currentProjectile = projectiles[0];
         fireRate = currentProjectile.getFireRate();
         Cursor.visible = false;
     }
@@ -52,7 +52,7 @@ public class PlayerController : MonoBehaviour
 
     void createProjectile()
     {
-        currentProjectile = projectiles[1];
+        currentProjectile = projectiles[0];
         deviationAmount = currentProjectile.getDeviationAmount();
         fireRate = currentProjectile.getFireRate();
         budget -= currentProjectile.getCost() * Random.Range(0.9f, 1.1f);
